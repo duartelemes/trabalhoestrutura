@@ -164,6 +164,6 @@ void mostrar_dias_em_tramitacao(Processo v[], int n) {
     printf("\n===== Dias em Tramitação de Cada Processo =====\n");
     for (int i = 0; i < n; i++) {
         int dias = dias_em_tramitacao(v[i].data_ajuizamento);
-        printf("Número do processo: %-20s | Dias em tramitação: %4d\n", v[i].numero, dias);
+        printf("Numero do processo: %-20s | Dias em tramitacao: %4d\n", v[i].numero, dias);
     }
 }
